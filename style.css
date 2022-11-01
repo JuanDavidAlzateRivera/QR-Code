@@ -1,0 +1,52 @@
+@font-face {
+    font-family: outfit;
+    src: url("Outfit-Regular.ttf")
+}
+
+@font-face {
+    font-family: outfit-black;
+    src: url("Outfit-Black.ttf")
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    text-align: center;
+}
+
+.img {
+    border-radius: 10px;
+    display: block;
+    width: 300px;
+}
+
+.h1 {
+    font-size: 20ox;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: outfit-black;
+    color: hsl(218, 44%, 22%);
+}
+
+.p {
+    padding: 10px 20px;
+    padding-top: 0;
+    font-family: outfit;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
